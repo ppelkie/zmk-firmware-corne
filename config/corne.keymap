@@ -17,6 +17,8 @@
                 = <&macro_press &kp LCTRL>
                 , <&macro_press &kp LEFT_SHIFT>
                 , <&macro_tap &kp LEFT>
+                , <&macro_release &kp LCTRL>
+                , <&macro_release &kp LEFT_SHIFT>
                 ;
             label = "CTRL_SHIFT_LEFT";
         };
@@ -28,6 +30,8 @@
                 = <&macro_press &kp LCTRL>
                 , <&macro_press &kp LEFT_SHIFT>
                 , <&macro_tap &kp RIGHT>
+                , <&macro_release &kp LCTRL>
+                , <&macro_release &kp LEFT_SHIFT>
                 ;
             label = "CTRL_SHIFT_RIGHT";
         };
