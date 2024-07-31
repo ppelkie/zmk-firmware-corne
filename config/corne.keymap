@@ -13,14 +13,14 @@
         ctrl_shift_left: ctrl_shift_left {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LCTRL &kp LEFT_SHIFT &kp LEFT>;
+            bindings = <&kp LCTRL>, <&kp LEFT_SHIFT>, <&kp LEFT>;
             label = "CTRL_SHIFT_LEFT";
         };
 
         ctrl_shift_right: ctrl_shift_right {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LCTRL &kp LEFT_SHIFT &kp RIGHT>;
+            bindings = <&kp LCTRL>, <&kp LEFT_SHIFT>, <&kp RIGHT>;
             label = "CTRL_SHIFT_RIGHT";
         };
     };
